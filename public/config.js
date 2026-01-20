@@ -1,5 +1,5 @@
 window.__RUNTIME_CONFIG__ = {
-  "VITE_ORDERLY_BROKER_ID": "paxeer",
+  "VITE_ORDERLY_BROKER_ID": "demo",
   "VITE_ORDERLY_BROKER_NAME": "Paxeer Capital Markets",
   "VITE_BROKER_EOA_ADDRESS": "0x12c7c1f81a5062c8f2274e057d48c0a22d5106c0",
   "VITE_DISABLE_MAINNET": "false",
@@ -27,7 +27,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_TWITTER_URL": "https://x.com/paxeernetwork",
   "VITE_SEO_SITE_NAME": "Paxeer Perps",
   "VITE_SEO_SITE_DESCRIPTION": "Trade Everything. Anywhere. Anytime.",
-  "VITE_SEO_SITE_URL": "https://perps.paxeer.app",
+  "VITE_SEO_SITE_URL": "https://dex.orderly.network/paxeer-capital-markets-2902/",
   "VITE_SEO_SITE_LANGUAGE": "en",
   "VITE_SEO_SITE_LOCALE": "en_US",
   "VITE_SEO_TWITTER_HANDLE": "@paxeernetwork",
