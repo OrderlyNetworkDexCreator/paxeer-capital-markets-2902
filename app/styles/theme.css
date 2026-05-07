@@ -1,100 +1,107 @@
 :root {
-  --oui-font-family: 'Manrope', sans-serif;
-  --oui-font-size-base: 16px;
+  --oui-font-family: 'Open Sans', sans-serif;
+  --oui-font-size-base: 14.5px;
 
   /* colors */
-  --oui-color-primary: 0 224 255; /* accent-1 */
-  --oui-color-primary-light: 143 195 255; /* blue-200 */
-  --oui-color-primary-darken: 10 196 221; /* blue-300 */
-  --oui-color-primary-contrast: 255 255 255; /* neutral-100 */
+  --oui-color-primary: 0 76 237;
+  --oui-color-primary-light: 26 92 255;
+  --oui-color-primary-darken: 0 53 168;
+  --oui-color-primary-contrast: 255 255 255;
 
-  --oui-color-link: 0 224 255; /* accent-1 */
-  --oui-color-link-light: 143 195 255; /* blue-200 */
+  --oui-color-link: 0 76 237;
+  --oui-color-link-light: 26 92 255;
 
-  --oui-color-secondary: 255 255 255; /* neutral-100 */
-  --oui-color-tertiary: 221 221 221; /* neutral-300 */
-  --oui-color-quaternary: 221 221 221; /* neutral-300 */
+  --oui-color-secondary: 255 255 255;
+  --oui-color-tertiary: 221 221 221;
+  --oui-color-quaternary: 175 175 175;
 
-  --oui-color-danger: 220 43 43; /* red-400 */
-  --oui-color-danger-light: 255 90 101; /* red-300 */
-  --oui-color-danger-darken: 220 43 43; /* red-400 */
-  --oui-color-danger-contrast: 255 255 255; /* neutral-100 */
+  --oui-color-danger: 255 90 101;
+  --oui-color-danger-light: 255 138 145;
+  --oui-color-danger-darken: 222 79 88;
+  --oui-color-danger-contrast: 255 255 255;
 
-  --oui-color-success: 5 193 104; /* green-300 */
-  --oui-color-success-light: 127 220 164; /* green-200 */
-  --oui-color-success-darken: 17 132 91; /* green-400 */
-  --oui-color-success-contrast: 255 255 255; /* neutral-100 */
+  --oui-color-success: 5 193 104;
+  --oui-color-success-light: 90 217 144;
+  --oui-color-success-darken: 4 168 91;
+  --oui-color-success-contrast: 255 255 255;
 
-  --oui-color-warning: 255 158 44; /* orange-300 */
-  --oui-color-warning-light: 255 209 155; /* orange-200 */
-  --oui-color-warning-darken: 213 105 27; /* orange-400 */
-  --oui-color-warning-contrast: 255 255 255; /* neutral-100 */
+  --oui-color-warning: 255 158 44;
+  --oui-color-warning-light: 255 200 130;
+  --oui-color-warning-darken: 213 105 27;
+  --oui-color-warning-contrast: 255 255 255;
 
-  --oui-color-fill: 11 11 11; /* neutral-800 */
-  --oui-color-fill-active: 30 30 30; /* neutral-700 */
+  --oui-color-fill: 13 16 23;
+  --oui-color-fill-active: 23 37 69;
 
-  --oui-color-base-1: 175 175 175; /* neutral-400 */
-  --oui-color-base-2: 130 130 130; /* neutral-500 */
-  --oui-color-base-3: 64 64 64; /* neutral-600 */
-  --oui-color-base-4: 30 30 30; /* neutral-700 */
-  --oui-color-base-5: 30 30 30; /* neutral-700 */
-  --oui-color-base-6: 11 11 11; /* neutral-800 */
-  --oui-color-base-7: 11 11 11; /* neutral-800 */
-  --oui-color-base-8: 5 5 5; /* secondary-1 */
-  --oui-color-base-9: 5 5 5; /* secondary-1 */
-  --oui-color-base-10: 5 5 5; /* secondary-1 */
+  --oui-color-base-1: 180 188 202;
+  --oui-color-base-2: 126 138 154;
+  --oui-color-base-3: 64 78 110;
+  --oui-color-base-4: 26 36 64;
+  --oui-color-base-5: 26 36 64;
+  --oui-color-base-6: 16 21 30;
+  --oui-color-base-7: 13 16 23;
+  --oui-color-base-8: 10 15 28;
+  --oui-color-base-9: 8 11 18;
+  --oui-color-base-10: 6 10 20;
 
-  --oui-color-base-foreground: 255 255 255; /* neutral-100 */
-  --oui-color-line: 245 245 245; /* neutral-200 */
+  --oui-color-base-foreground: 247 247 247;
+  --oui-color-line: 26 36 64;
 
-  --oui-color-trading-loss: 220 43 43; /* red-400 */
-  --oui-color-trading-loss-contrast: 255 255 255; /* neutral-100 */
-  --oui-color-trading-profit: 5 193 104; /* green-300 */
-  --oui-color-trading-profit-contrast: 255 255 255; /* neutral-100 */
+  --oui-color-trading-loss: 255 90 101;
+  --oui-color-trading-loss-contrast: 255 255 255;
+  --oui-color-trading-profit: 5 193 104;
+  --oui-color-trading-profit-contrast: 255 255 255;
 
   /* gradients */
-  --oui-gradient-primary-start: 10 196 221; /* blue-300 */
-  --oui-gradient-primary-end: 0 224 255; /* accent-1 */
+  --oui-gradient-primary-start: 26 92 255;
+  --oui-gradient-primary-end: 0 76 237;
 
-  --oui-gradient-secondary-start: 11 11 11; /* neutral-800 */
-  --oui-gradient-secondary-end: 30 30 30; /* neutral-700 */
+  --oui-gradient-secondary-start: 8 11 18;
+  --oui-gradient-secondary-end: 23 37 69;
 
-  --oui-gradient-success-start: 17 132 91; /* green-400 */
-  --oui-gradient-success-end: 5 193 104; /* green-300 */
+  --oui-gradient-success-start: 4 168 91;
+  --oui-gradient-success-end: 5 193 104;
 
-  --oui-gradient-danger-start: 220 43 43; /* red-400 */
-  --oui-gradient-danger-end: 255 90 101; /* red-300 */
+  --oui-gradient-danger-start: 222 79 88;
+  --oui-gradient-danger-end: 255 90 101;
 
-  --oui-gradient-brand-start: 234 244 255; /* blue-100 */
-  --oui-gradient-brand-end: 0 224 255; /* accent-1 */
+  --oui-gradient-brand-start: 26 92 255;
+  --oui-gradient-brand-end: 0 76 237;
   --oui-gradient-brand-stop-start: 6.62%;
   --oui-gradient-brand-stop-end: 86.5%;
   --oui-gradient-brand-angle: 17.44deg;
 
-  --oui-gradient-warning-start: 213 105 27; /* orange-400 */
-  --oui-gradient-warning-end: 255 158 44; /* orange-300 */
+  --oui-gradient-warning-start: 213 105 27;
+  --oui-gradient-warning-end: 255 158 44;
 
-  --oui-gradient-neutral-start: 5 5 5; /* secondary-1 */
-  --oui-gradient-neutral-end: 11 11 11; /* neutral-800 */
+  --oui-gradient-neutral-start: 8 11 18;
+  --oui-gradient-neutral-end: 13 16 23;
 
   /* rounded */
-  --oui-rounded-sm: 2px;
-  --oui-rounded: 4px;
-  --oui-rounded-md: 6px;
-  --oui-rounded-lg: 8px;
-  --oui-rounded-xl: 12px;
-  --oui-rounded-2xl: 16px;
+  --oui-rounded-sm: 8px;
+  --oui-rounded: 10px;
+  --oui-rounded-md: 12px;
+  --oui-rounded-lg: 16px;
+  --oui-rounded-xl: 18px;
+  --oui-rounded-2xl: 20px;
   --oui-rounded-full: 9999px;
 
   /* spacing */
-  --oui-spacing-xs: 20rem;
+  --oui-spacing-xs: 18rem;
   --oui-spacing-sm: 22.5rem;
   --oui-spacing-md: 26.25rem;
   --oui-spacing-lg: 30rem;
-  --oui-spacing-xl: 33.75rem;
+  --oui-spacing-xl: 32.5rem;
 }
 
 html, body {
-  font-family: 'Manrope', sans-serif !important;
-  font-size: 16px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 14.5px !important;
+}
+
+.orderly-app-container,
+.orderly-app-container *,
+.orderly-app-container *::before,
+.orderly-app-container *::after {
+  font-family: 'Open Sans', sans-serif !important;
 }
