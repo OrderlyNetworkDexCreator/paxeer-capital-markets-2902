@@ -1,5 +1,5 @@
 window.__RUNTIME_CONFIG__ = {
-  "VITE_ORDERLY_BROKER_ID": "demo",
+  "VITE_ORDERLY_BROKER_ID": "paxeer",
   "VITE_ORDERLY_BROKER_NAME": "Paxeer Capital Markets",
   "VITE_BROKER_EOA_ADDRESS": "0x12c7c1f81a5062c8f2274e057d48c0a22d5106c0",
   "VITE_DISABLE_MAINNET": "false",
@@ -18,7 +18,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_APP_DESCRIPTION": "Trade Everything. Anywhere. Anytime.",
   "VITE_HAS_PRIMARY_LOGO": "true",
   "VITE_HAS_SECONDARY_LOGO": "true",
-  "VITE_ENABLED_MENUS": "Trading,Portfolio,Swap,Markets,Vaults,Leaderboard,Points,Rewards",
+  "VITE_ENABLED_MENUS": "Trading,Portfolio,Swap,Markets,Vaults,Leaderboard,Points,Rewards,Campaigns",
   "VITE_CUSTOM_MENUS": "",
   "VITE_ENABLE_SERVICE_DISCLAIMER_DIALOG": "false",
   "VITE_ENABLE_CAMPAIGNS": "false",
